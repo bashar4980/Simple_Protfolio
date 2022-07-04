@@ -12,14 +12,15 @@ body{
     background-repeat: no-repeat;
 }
 h1{
-    font-size: 50px;
-    font-weight: 500;
+    font-size: 45px;
+    font-weight: 600;
 }
 h1 span{
     color:orange;
 }
 section{
     display: flex;
+    margin-bottom: 100px;
 }
 .half_width{
     width: 50%;
@@ -43,4 +44,12 @@ section{
     cursor: pointer;
     text-decoration: none;
     margin-top: 10px!important;
+}
+#half-width{
+    margin-right: 30px;
+}
+.dream_big{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:  right;
 }
